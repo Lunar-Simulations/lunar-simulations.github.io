@@ -5,7 +5,7 @@ class MyComponent extends HTMLElement {
         baseURL = `${baseURL.substring(0, baseURLi)}src/`
         this.innerHTML = `
         <div class="navbar">
-            <div class="logo">Cosmology Simulations</div>
+            <div class="logo">Lunar Simulations</div>
             <div>
                 <div class="navbar-links hide-mobile">
                     <a href="index.html">Home</a>
