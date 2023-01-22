@@ -5,7 +5,11 @@ class MyComponent extends HTMLElement {
         baseURL = `${baseURL.substring(0, baseURLi)}src/`
         this.innerHTML = `
         <div class="navbar">
-            <div class="logo">Lunar Simulations</div>
+        
+            <div class="logo">
+            <!--<img height="40vh; " src="https://ik.imagekit.io/pzcihm1mr/icon.png?tr=h-200">-->
+            Lunar Simulations
+            </div>
             <div>
                 <div class="navbar-links hide-mobile">
                     <a href="index.html">Home</a>
