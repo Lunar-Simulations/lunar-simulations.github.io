@@ -6,8 +6,9 @@ class MyComponent extends HTMLElement {
         this.innerHTML = `
         <div class="navbar">
         
-            <div class="logo">
-            <!--<img height="40vh; " src="https://ik.imagekit.io/pzcihm1mr/icon.png?tr=h-200">-->
+            <div class="logo flex-vertical-centre">
+            <!--<img style="height: 3rem" src="https://ik.imagekit.io/pzcihm1mr/icon.png?tr=h-200">-->
+            <img style="height: 3rem" src="lunar_sim_site_logo.png">
             Lunar Simulations
             </div>
             <div>

@@ -277,6 +277,14 @@ body {
     align-items: center;
 }
 
+.flex-vertical-centre {
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
+}
+
 section {
     padding: 20px;
 }
