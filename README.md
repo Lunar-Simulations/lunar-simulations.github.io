@@ -1,4 +1,6 @@
-<div style="text-align:center"><img src="./lunar_sim_banner.png" style="width: 50%;"></div>
+<p align="center" width="100%">
+    <img src="./lunar_sim_banner.png" style="width: 50%;">
+</p>
 
 # Website
 Lunar Simulations website repo.
