@@ -68,6 +68,8 @@ body {
     width: 100vw;
     z-index: 100000;
     color: white;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 .navbar-links {
@@ -91,6 +93,7 @@ body {
     background-position: 0;
     background-size: 400%;
     /* margin-left: 20px; */
+    user-select: none;
 }
 
 .navbar a:hover {
@@ -233,6 +236,7 @@ body {
     font-size: 7vmin;
     margin: 30px;
     margin-bottom: 15px;
+    user-select: none;
     /* transform: translateY(100px); */
 }
 
@@ -283,6 +287,7 @@ body {
     gap: 0.3rem;
     justify-content: center;
     align-items: center;
+    user-select: none;
 }
 
 section {
@@ -350,6 +355,7 @@ section {
     /* text-align: center; */
     width: fit-content;
     cursor: pointer;
+    user-select: none;
 }
 
 .features-header:hover {
@@ -394,7 +400,7 @@ section {
     border: 2px solid #ffffff;
     border-radius: 100vw;
     cursor: pointer;
-
+    user-select: none;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     transition: 0.5s;
@@ -449,6 +455,9 @@ li {
     display: none;
     animation: fadeInOut 0.5s ease;
     z-index: 0;
+    -webkit-user-drag: none;
+    user-select: none;
+    border-radius: 5px;
 }
 
 #gallery img.active {
