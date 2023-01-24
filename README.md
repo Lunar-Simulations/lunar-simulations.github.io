@@ -1,4 +1,4 @@
-<img src="./lunar_sim_banner.png" style="width: 50vw; margin-left: 50%; transform: translateX(-50%)">
+<img src="./lunar_sim_banner.png" style="width: 50%; margin-left: 50%; transform: translateX(-50%)">
 
 # Website
 Lunar Simulations website repo.
