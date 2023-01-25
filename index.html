@@ -159,7 +159,7 @@
         </div>
     </section>
 
-    <section class="half-page-section image-bg-1 flex-centre">
+    <section style="height: 40vh;" class="dyn-page-section image-bg-1 flex-centre">
         <h2 style="margin-bottom: 1rem">For more information</h2>
         <div id="join-server" class="button flex-centre" onclick="location.href=`https://discord.gg/SCDwaUjvyT`;">
             <div style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
@@ -179,20 +179,26 @@
                     server
                 </p>
             </div>
-        <!--<div class="button">Discord (coming soon)</div>-->
+            <!--<div class="button">Discord (coming soon)</div>-->
         </div>
     </section>
 
-    <section style="background: linear-gradient(65deg,
-    rgb(42, 49, 57) 0%,
-    rgb(22, 27, 35) 100%);" class="dyn-page-section flex-centre">
-        <h2 style="margin-bottom: 0;">Join our team</h2>
-        <p>If you'd like to join the 767 team, please fill in this quick form for us to get to know you and your skill
-            set.</p>
-        <div class="button" onclick="location.href='https://forms.gle/svVqbGdp3B6us5dg8';">
-            Fill out the form
+    <section id="join" style="height: 30vh; overflow: hidden; position: relative;" class="dyn-page-section flex-centre">
+        <div style="z-index: 10; 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);">
+            <h2 style="margin-bottom: 0; text-align: center;">Join our team</h2>
+            <p style="text-align: center;">If you'd like to join the 767 team, please fill in this quick form for us to
+                get to know you and your skill set.<br />We'll be in touch as soon as possible.
+            </p>
+            <div class="button" onclick="location.href='https://forms.gle/svVqbGdp3B6us5dg8';">
+                Fill out the form
+            </div>
+            <br />
         </div>
-        <br />
+        <img src="/images/join.jpg" class="image-bg-3">
     </section>
     <footer>
         <div class="footer-container">

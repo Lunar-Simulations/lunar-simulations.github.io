@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap'); */
 
 /* Add some basic styling for the body */
 body {
@@ -416,6 +419,31 @@ section {
     /* background-size: calc(cover - 0%); */
     background-attachment: fixed;
     background-repeat: no-repeat;
+}
+
+.image-bg-3 {
+    filter: blur(1px) brightness(0.6);
+    width: 105%;
+    height: 115%;
+    object-fit: cover;
+    transition: all 0.8s cubic-bezier(0.0, 1, 0.3, 1);
+    opacity: 0.1;
+}
+
+#join:hover>.image-bg-3 {
+    filter: blur(3px) brightness(0.4);
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+#join::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.155) 0%, rgba(76, 177, 255, 0.117) 90%);
 }
 
 .two-column-list {

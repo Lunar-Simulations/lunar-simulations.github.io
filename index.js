@@ -16,7 +16,7 @@ if (
         // Update the translateY value
         parallaxText.style.transform = `translateY(${scrollPos * 0.5}px)`;
         coverImage.style.backgroundPositionY = `${scrollPos * 0.7}px`;
-        paraImage1.style.backgroundSize = `${Math.max(100, 115 * 1300 / window.innerWidth + (paraImage1.offsetHeight + (scrollPos - paraImage1.offsetTop) * 0.7) * 0.05)}%`;
+        // paraImage1.style.backgroundSize = `${Math.max(100, 115 * 1300 / window.innerWidth + (paraImage1.offsetHeight + (scrollPos - paraImage1.offsetTop) * 0.7) * 0.05)}%`;
         // paraImage1.style.backgroundSize = `calc(cover+${(paraImage1.offsetHeight + (scrollPos - paraImage1.offsetTop) * 0.7) * 0.05}%)`;
         requestAnimationFrame(parallax);
         // parallax()
@@ -36,7 +36,6 @@ const gallery = document.getElementById("gallery");
 const alt_cover = document.querySelector(".alt-cover")
 
 window.addEventListener("scroll", function () {
-    // console.log(gallery.offsetTop, window.scrollY)
     if (gallery.offsetTop < window.scrollY) {
         alt_cover.style.opacity = 0
     } else {
@@ -70,8 +69,6 @@ const next = document.getElementById("next");
 let current = 0;
 
 images[current].classList.add("active");
-
-
 
 let galleryInterval;
 let progressBar = document.getElementById("progress-bar");
@@ -126,12 +123,11 @@ const observer_tech = new IntersectionObserver((entries) => {
             // });
             liElements.forEach((li, index) => {
                 li.classList.add("show");
-                li.style.transitionDelay = `${index * 0.1}s`;
+                li.style.transitionDelay = `${index * 0.07}s`;
             });
             observer_tech.unobserve(entry.target);
         }
     });
 }, { threshold: 0.3 });
-
 
 observer_tech.observe(ul);
