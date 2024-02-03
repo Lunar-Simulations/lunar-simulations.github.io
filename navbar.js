@@ -6,11 +6,11 @@ class MyComponent extends HTMLElement {
         this.innerHTML = `
         <div class="navbar">
         
-            <div class="logo flex-vertical-centre">
-            <!--<img style="height: 3rem" src="https://ik.imagekit.io/pzcihm1mr/icon.png?tr=h-200">-->
-            <img style="height: 3rem" src="lunar_sim_site_logo.png">
-            Lunar Simulations
-            </div>
+            <a href="./index.html" class="logo flex-vertical-centre">
+                <!--<img style="height: 3rem" src="https://ik.imagekit.io/pzcihm1mr/icon.png?tr=h-200">-->
+                <img style="height: 3rem" src="lunar_sim_site_logo.png">
+                Lunar Simulations
+            </a>
             <div>
                 <div class="navbar-links hide-mobile">
                     <a href="index.html">Home</a>
